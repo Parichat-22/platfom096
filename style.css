@@ -1,0 +1,73 @@
+/* Reset Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* General Styles */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 30px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px auto;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: left;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+/* Image Styles */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer (if you want to add later) */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
